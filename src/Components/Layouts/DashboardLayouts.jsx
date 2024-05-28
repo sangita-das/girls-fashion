@@ -35,16 +35,17 @@ export default function DashboardLayouts() {
           {/* Sidebar content here */}
           <div>
             <li>
-              <Link to={"/dashboard/manage-recipes"}>Mangae All Recipes</Link>
+              <Link to={"/dashboard/all-product"}>All Product</Link>
             </li>
             <li>
-              <Link to={"/dashboard/add-recipe"}>Add Recipe</Link>
+              <Link to={"/dashboard/add-product"}>Add Product</Link>
             </li>
           </div>
           <div className="flex gap-4">
             <Link to={"/"} className="btn btn-neutral">
               Home
             </Link>
+           
             <button className="btn btn-error" onClick={handleLogout}>
               Logout
             </button>

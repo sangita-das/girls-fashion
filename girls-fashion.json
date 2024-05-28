@@ -1,0 +1,193 @@
+{
+  "girls_fashion": {
+    "categories": [
+      {
+        "name": "Clothing",
+        "subcategories": [
+          {
+            "name": "Tops",
+            "products": [
+              {
+                "id": "1",
+                "name": "Floral Print T-shirt",
+                "description": "A cute floral print t-shirt perfect for casual outings.",
+                "price": 15.99,
+                "sizes": ["S", "M", "L", "XL"],
+                "colors": ["Pink", "Blue", "White"],
+                "images": [
+                  "images/floral_print_tshirt_front.jpg",
+                  "images/floral_print_tshirt_back.jpg"
+                ]
+              },
+              {
+                "id": "2",
+                "name": "Graphic Tee",
+                "description": "Trendy graphic tee with fun prints.",
+                "price": 12.99,
+                "sizes": ["S", "M", "L", "XL"],
+                "colors": ["Yellow", "Black", "Grey"],
+                "images": [
+                  "images/graphic_tee_front.jpg",
+                  "images/graphic_tee_back.jpg"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Bottoms",
+            "products": [
+              {
+                "id": "3",
+                "name": "Denim Shorts",
+                "description": "Stylish denim shorts with a comfortable fit.",
+                "price": 19.99,
+                "sizes": ["S", "M", "L", "XL"],
+                "colors": ["Blue", "Black"],
+                "images": [
+                  "images/denim_shorts_front.jpg",
+                  "images/denim_shorts_back.jpg"
+                ]
+              },
+              {
+                "id": "4",
+                "name": "Leggings",
+                "description": "Soft and stretchy leggings for all-day comfort.",
+                "price": 14.99,
+                "sizes": ["S", "M", "L", "XL"],
+                "colors": ["Black", "Grey", "Navy"],
+                "images": [
+                  "images/leggings_front.jpg",
+                  "images/leggings_back.jpg"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Footwear",
+        "subcategories": [
+          {
+            "name": "Casual Shoes",
+            "products": [
+              {
+                "id": "5",
+                "name": "Sneakers",
+                "description": "Comfortable and stylish sneakers for everyday wear.",
+                "price": 24.99,
+                "sizes": ["1", "2", "3", "4", "5"],
+                "colors": ["White", "Black", "Pink"],
+                "images": [
+                  "images/sneakers_front.jpg",
+                  "images/sneakers_back.jpg"
+                ]
+              },
+              {
+                "id": "6",
+                "name": "Ballet Flats",
+                "description": "Cute ballet flats with a bow detail.",
+                "price": 22.99,
+                "sizes": ["1", "2", "3", "4", "5"],
+                "colors": ["Red", "Black", "Silver"],
+                "images": [
+                  "images/ballet_flats_front.jpg",
+                  "images/ballet_flats_back.jpg"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Sandals",
+            "products": [
+              {
+                "id": "7",
+                "name": "Gladiator Sandals",
+                "description": "Trendy gladiator sandals with adjustable straps.",
+                "price": 18.99,
+                "sizes": ["1", "2", "3", "4", "5"],
+                "colors": ["Brown", "Black", "Gold"],
+                "images": [
+                  "images/gladiator_sandals_front.jpg",
+                  "images/gladiator_sandals_back.jpg"
+                ]
+              },
+              {
+                "id": "8",
+                "name": "Flip Flops",
+                "description": "Comfortable flip flops for beach days.",
+                "price": 9.99,
+                "sizes": ["1", "2", "3", "4", "5"],
+                "colors": ["Pink", "Blue", "Green"],
+                "images": [
+                  "images/flip_flops_front.jpg",
+                  "images/flip_flops_back.jpg"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Accessories",
+        "subcategories": [
+          {
+            "name": "Bags",
+            "products": [
+              {
+                "id": "9",
+                "name": "Backpack",
+                "description": "Stylish backpack for school and travel.",
+                "price": 29.99,
+                "sizes": ["One Size"],
+                "colors": ["Purple", "Blue", "Pink"],
+                "images": [
+                  "images/backpack_front.jpg",
+                  "images/backpack_back.jpg"
+                ]
+              },
+              {
+                "id": "10",
+                "name": "Crossbody Bag",
+                "description": "Cute crossbody bag with adjustable strap.",
+                "price": 17.99,
+                "sizes": ["One Size"],
+                "colors": ["Red", "Black", "Yellow"],
+                "images": [
+                  "images/crossbody_bag_front.jpg",
+                  "images/crossbody_bag_back.jpg"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Jewelry",
+            "products": [
+              {
+                "id": "11",
+                "name": "Charm Bracelet",
+                "description": "Adorable charm bracelet with various charms.",
+                "price": 12.99,
+                "sizes": ["One Size"],
+                "colors": ["Silver", "Gold"],
+                "images": [
+                  "images/charm_bracelet.jpg"
+                ]
+              },
+              {
+                "id": "12",
+                "name": "Stud Earrings",
+                "description": "Set of colorful stud earrings.",
+                "price": 8.99,
+                "sizes": ["One Size"],
+                "colors": ["Multicolor"],
+                "images": [
+                  "images/stud_earrings.jpg"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

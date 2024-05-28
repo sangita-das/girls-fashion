@@ -1,0 +1,122 @@
+{
+    
+     
+        "items": [
+    {
+      "id": "1",
+      "name": "Floral Print T-shirt",
+      "description": "A cute floral print t-shirt perfect for casual outings.",
+      "price": 15.99,
+      "image": "https://images.pexels.com/photos/15503226/pexels-photo-15503226/free-photo-of-brunette-in-tshirt-with-print.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": "2",
+      "name": "Graphic Tee",
+      "description": "Trendy graphic tee with fun prints.",
+      "price": 12.99,
+      "image": "https://images.pexels.com/photos/3819573/pexels-photo-3819573.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "color": "red/blue/green"
+    },
+    {
+      "id": "3",
+      "name": "Denim Shorts",
+      "description": "Stylish denim shorts with a comfortable fit.",
+      "price": 19.99,
+      "image": "https://images.pexels.com/photos/6364340/pexels-photo-6364340.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": "4",
+      "name": "Leggings",
+      "description": "Soft and stretchy leggings for all-day comfort.",
+      "price": 14.99,
+      "image": "https://images.pexels.com/photos/6995710/pexels-photo-6995710.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "color": "red/blue/green"
+    },
+    {
+      "id": "5",
+      "name": "Sneakers",
+      "description": "Comfortable and stylish sneakers for everyday wear.",
+      "price": 24.99,
+      "image": "https://images.pexels.com/photos/5537487/pexels-photo-5537487.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "color": "red/blue/green"
+    },
+    {
+      "id": "6",
+      "name": "Ballet Flats",
+      "description": "Cute ballet flats with a bow detail.",
+      "price": 22.99,
+      "image": "https://images.pexels.com/photos/16234308/pexels-photo-16234308/free-photo-of-a-person-s-feet-are-in-the-air-with-colorful-shoes.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "color": "red/blue/green"
+    },
+    {
+      "id": "7",
+      "name": "Gladiator Sandals",
+      "description": "Trendy gladiator sandals with adjustable straps.",
+      "price": 18.99,
+      "image": "https://images.pexels.com/photos/7130190/pexels-photo-7130190.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "color": "red/blue/green"
+    },
+    {
+      "id": "8",
+      "name": "Flip Flops",
+      "description": "Comfortable flip flops for beach days.",
+      "price": 9.99,
+      "image": "https://images.pexels.com/photos/8455817/pexels-photo-8455817.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "color": "red/blue/green"
+    },
+    {
+      "id": "9",
+      "name": "Backpack",
+      "description": "Stylish backpack for school and travel.",
+      "price": 29.99,
+      "image": "https://images.pexels.com/photos/3933915/pexels-photo-3933915.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": "10",
+      "name": "Crossbody Bag",
+      "description": "Cute crossbody bag with adjustable strap.",
+      "price": 17.99,
+      "image": "https://images.pexels.com/photos/6310184/pexels-photo-6310184.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "color": "red/blue/green"
+    }
+  ],
+      
+      
+       "accessories":  [
+       {
+            "id": 7,
+            "name": "Lipstick",
+            "description": "Matte finish lipstick",
+            "price": 12.99,
+            "shades": ["Red", "Pink", "Nude"],
+            "image": "https://images.pexels.com/photos/3831881/pexels-photo-3831881.jpeg?auto=compress&cs=tinysrgb&w=600"          },
+          {
+            "id": 8,
+            "name": "Perfume",
+            "description": "Eau de parfum spray",
+            "price": 59.99,
+            "scents": ["Floral", "Citrus", "Woody"],
+            "image": "https://images.pexels.com/photos/264950/pexels-photo-264950.jpeg?auto=compress&cs=tinysrgb&w=600"
+          },
+          {
+            "id": 9,
+            "name": "Nail Polish",
+            "description": "Long-lasting nail polish",
+            "price": 9.99,
+            "colors": ["Red", "Pink", "Blue", "Black"],
+            "image": "https://images.pexels.com/photos/4677845/pexels-photo-4677845.jpeg?auto=compress&cs=tinysrgb&w=600"
+          },
+          {
+                "id": "11",
+                "name": "Charm Bracelet",
+                "description": "Adorable charm bracelet with various charms.",
+                "price": 12.99,
+                "sizes": ["One Size"],
+                "colors": ["Silver", "Gold"],
+                "image": "https://images.pexels.com/photos/885218/pexels-photo-885218.jpeg?auto=compress&cs=tinysrgb&w=600"
+              }
+
+   
+        ]
+      }
+    

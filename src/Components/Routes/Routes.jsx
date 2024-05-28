@@ -7,6 +7,9 @@ import Login from '../Pages/Login';
 import Register from '../Pages/Register';
 import DashboardLayouts from '../Layouts/DashboardLayouts';
 import PrivateRoute from './PrivateRoute';
+import DashboardHome from '../Pages/Dashboard/DashboardHome';
+import AllProduct from '../Pages/Dashboard/AllProduct';
+import AddProduct from '../Pages/Dashboard/AddProduct';
 
 const router = createBrowserRouter([
   {
@@ -43,7 +46,23 @@ const router = createBrowserRouter([
             <DashboardLayouts/>
         </PrivateRoute>
     ),
-  }
+    children:[
+        {
+            index: true,
+            element: <DashboardHome/>
+        },
+        {
+            path: "/dashboard/all-product",
+            element: <AllProduct/>
+        },
+        {
+            path: "/dashboard/add-product",
+            element: <AddProduct/>
+        }
+    ]
+  },
+
+  
 
  
 ]);
