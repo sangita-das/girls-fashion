@@ -26,13 +26,13 @@ export default function AddProduct() {
     const id = form.id.value;
     const title = form.title.value;
     const price = form.price.value;
-    const category = form.category.value;
+    const categories = form.categories.value;
     const description = form.description.value;
     const productData = {
       id,
       title,
       price,
-      category,
+      categories,
       description,
     };
 
@@ -42,7 +42,7 @@ export default function AddProduct() {
 
   return ( 
     <div className="w-full px-16">
-      <h1 className="text-4xl mb-4">Add Category</h1>
+      <h1 className="text-4xl mb-4">Add Product</h1>
       <form onSubmit={handleCreatecategory} className="w-full ">
         <div className="mb-4 ">
           <label htmlFor="">Id </label>
@@ -63,10 +63,10 @@ export default function AddProduct() {
         </div>
         <div className="mb-4">
           <label htmlFor="">Cateogry </label>
-          <select name="category" id="" className="w-full py-3 px-5 border">
-            {categories?.map((category) => (
-              <option key={category?.id} value={category?.title}>
-                {category?.title}
+          <select name="categories" id="" className="w-full py-3 px-5 border">
+            {categories?.map((categories) => (
+              <option key={categories?.id} value={categories?.name}>
+                {categories?.name}
               </option>
             ))}
           </select>

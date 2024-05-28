@@ -11,6 +11,7 @@ import DashboardHome from '../Pages/Dashboard/DashboardHome';
 import AllProduct from '../Pages/Dashboard/AllProduct';
 import AddProduct from '../Pages/Dashboard/AddProduct';
 import Collection from '../Pages/Collection';
+import EditProduct from '../Pages/Dashboard/EditProduct';
 
 const router = createBrowserRouter([
   {
@@ -63,6 +64,10 @@ const router = createBrowserRouter([
         {
             path: "/dashboard/add-product",
             element: <AddProduct/>
+        },
+        {
+            path: "/dashboard/edit-product/:id",
+            element: <EditProduct/>
         }
     ]
   },
