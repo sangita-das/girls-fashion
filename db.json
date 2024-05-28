@@ -5,14 +5,14 @@
       "name": "Floral Print T-shirt",
       "description": "A cute floral print t-shirt perfect for casual outings.",
       "price": 15.99,
-      "image": "https://images.pexels.com/photos/15503226/pexels-photo-15503226/free-photo-of-brunette-in-tshirt-with-print.jpeg?auto=compress&cs=tinysrgb&w=600"
+      "image": "https://images.pexels.com/photos/6210323/pexels-photo-6210323.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "id": "2",
       "name": "Graphic Tee",
       "description": "Trendy graphic tee with fun prints.",
       "price": 12.99,
-      "image": "https://images.pexels.com/photos/3819573/pexels-photo-3819573.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "image": "https://images.pexels.com/photos/3819580/pexels-photo-3819580.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
       "color": "red/blue/green"
     },
     {
@@ -35,7 +35,7 @@
       "name": "Sneakers",
       "description": "Comfortable and stylish sneakers for everyday wear.",
       "price": 24.99,
-      "image": "https://images.pexels.com/photos/5537487/pexels-photo-5537487.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "image": "https://images.pexels.com/photos/12955879/pexels-photo-12955879.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
       "color": "red/blue/green"
     },
     {
