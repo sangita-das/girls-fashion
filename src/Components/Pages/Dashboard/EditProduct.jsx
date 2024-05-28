@@ -54,7 +54,7 @@ export default function EditProduct() {
         <div className="mb-4">
           <label htmlFor="">Title </label>
           <input
-            defaultValue={productDetails?.title}
+            defaultValue={productDetails?.name}
             type="text"
             name="title"
             className="w-full py-3 px-5 border"
@@ -75,10 +75,10 @@ export default function EditProduct() {
             {categories?.map((category) => (
               <option
                 key={category?.title}
-                selected={category?.title === productDetails?.category}
-                value={category?.title}
+                selected={category?.name === productDetails?.category}
+                value={category?.name}
               >
-                {category?.title}
+                {category?.name}
               </option>
             ))}
           </select>
