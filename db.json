@@ -1,7 +1,5 @@
 {
-    
-     
-        "items": [
+  "items": [
     {
       "id": "1",
       "name": "Floral Print T-shirt",
@@ -79,44 +77,60 @@
       "image": "https://images.pexels.com/photos/6310184/pexels-photo-6310184.jpeg?auto=compress&cs=tinysrgb&w=600",
       "color": "red/blue/green"
     }
+  
   ],
-      
-      
-       "accessories":  [
-       {
-            "id": 7,
-            "name": "Lipstick",
-            "description": "Matte finish lipstick",
-            "price": 12.99,
-            "shades": ["Red", "Pink", "Nude"],
-            "image": "https://images.pexels.com/photos/3831881/pexels-photo-3831881.jpeg?auto=compress&cs=tinysrgb&w=600"          },
-          {
-            "id": 8,
-            "name": "Perfume",
-            "description": "Eau de parfum spray",
-            "price": 59.99,
-            "scents": ["Floral", "Citrus", "Woody"],
-            "image": "https://images.pexels.com/photos/264950/pexels-photo-264950.jpeg?auto=compress&cs=tinysrgb&w=600"
-          },
-          {
-            "id": 9,
-            "name": "Nail Polish",
-            "description": "Long-lasting nail polish",
-            "price": 9.99,
-            "colors": ["Red", "Pink", "Blue", "Black"],
-            "image": "https://images.pexels.com/photos/4677845/pexels-photo-4677845.jpeg?auto=compress&cs=tinysrgb&w=600"
-          },
-          {
-                "id": "11",
-                "name": "Charm Bracelet",
-                "description": "Adorable charm bracelet with various charms.",
-                "price": 12.99,
-                "sizes": ["One Size"],
-                "colors": ["Silver", "Gold"],
-                "image": "https://images.pexels.com/photos/885218/pexels-photo-885218.jpeg?auto=compress&cs=tinysrgb&w=600"
-              }
-
-   
-        ]
-      }
-    
+  
+  "accessories": [
+    {
+      "id": "7",
+      "name": "Lipstick",
+      "description": "Matte finish lipstick",
+      "price": 12.99,
+      "shades": [
+        "Red",
+        "Pink",
+        "Nude"
+      ],
+      "image": "https://images.pexels.com/photos/3831881/pexels-photo-3831881.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": "8",
+      "name": "Perfume",
+      "description": "Eau de parfum spray",
+      "price": 59.99,
+      "scents": [
+        "Floral",
+        "Citrus",
+        "Woody"
+      ],
+      "image": "https://images.pexels.com/photos/264950/pexels-photo-264950.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": "9",
+      "name": "Nail Polish",
+      "description": "Long-lasting nail polish",
+      "price": 9.99,
+      "colors": [
+        "Red",
+        "Pink",
+        "Blue",
+        "Black"
+      ],
+      "image": "https://images.pexels.com/photos/4677845/pexels-photo-4677845.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": "11",
+      "name": "Charm Bracelet",
+      "description": "Adorable charm bracelet with various charms.",
+      "price": 12.99,
+      "sizes": [
+        "One Size"
+      ],
+      "colors": [
+        "Silver",
+        "Gold"
+      ],
+      "image": "https://images.pexels.com/photos/885218/pexels-photo-885218.jpeg?auto=compress&cs=tinysrgb&w=600"
+    }
+  ]
+}

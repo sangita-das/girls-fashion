@@ -6,6 +6,7 @@ import CategoryCard from "../Card/CategoryCard";
 
 
 
+
 export default function Home() {
 
   const [fashion, setFashion] = useState([])
@@ -66,6 +67,7 @@ export default function Home() {
             ?.slice(0, 4)
             ?.map((fashion) => (
               <FashionCard key={fashion?.id} fashion={fashion} />
+              
             ))}
         </div>
       </div>

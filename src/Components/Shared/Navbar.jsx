@@ -41,6 +41,10 @@ export default function Navbar() {
       </li>
 
       <li>
+        <Link to={"/collection"}>Collection</Link>
+      </li>
+
+      <li>
         <Link to ={'/contact'}>Contact</Link>
       </li>
 

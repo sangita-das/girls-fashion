@@ -10,6 +10,7 @@ import PrivateRoute from './PrivateRoute';
 import DashboardHome from '../Pages/Dashboard/DashboardHome';
 import AllProduct from '../Pages/Dashboard/AllProduct';
 import AddProduct from '../Pages/Dashboard/AddProduct';
+import Collection from '../Pages/Collection';
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
          {
             path: 'about',
             element: <About/>
+        },
+        {
+            path: 'collection',
+            element: <Collection/>
         },
         {
             path: 'contact',
